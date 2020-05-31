@@ -4,6 +4,8 @@ Utilizes Vue, Gridsome, GraphQL, Markdown, Vuetify, and HighlightJS
 
 This is a simple dev blog.
 
+![Blog Screenshot](https://github.com/michaelkimball/dev-blog/raw/master/Screenshot.png)
+
 ## Usage
 
 Clone repository
