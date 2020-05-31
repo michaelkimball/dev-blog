@@ -1,14 +1,30 @@
-# Default starter for Gridsome
+# Michael Kimball JAMStack Blog
 
-This is the project you get when you run `gridsome create new-project`.
+Utilizes Vue, Gridsome, GraphQL, Markdown, Vuetify, and HighlightJS
 
-### 1. Install Gridsome CLI tool if you don't have
+This is a simple dev blog.
 
-`npm install --global @gridsome/cli`
+## Usage
 
-### 2. Create a Gridsome project
+Clone repository
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+```shell
+git clone https://github.com/michaelkimball/dev-blog.git
+```
+
+Change directory and run
+
+```shell
+cd dev-blog
+gridsome develop
+```
+
+Build static pages for deployment
+
+```shell
+gridsome build
+```
+
+This will output to the `./dist` folder.
+
+Add new blog posts in `./content/posts`
