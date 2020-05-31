@@ -1,0 +1,19 @@
+{
+  "name": "michaelkimball-blog",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "remark-highlight.js": "^6.0.0",
+    "vuetify": "^2.2.30"
+  },
+  "devDependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
