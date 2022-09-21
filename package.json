@@ -9,7 +9,7 @@
   "dependencies": {
     "gridsome": "^0.7.0",
     "remark-highlight.js": "^6.0.0",
-    "vuetify": "^2.2.30"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
